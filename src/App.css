@@ -167,7 +167,7 @@
 
   &::before,
   &::after {
-    content: '';
+    content: "";
     position: absolute;
     top: -4.5px;
     border: 5px solid transparent;
@@ -181,4 +181,45 @@
     right: 0;
     border-right-color: var(--border);
   }
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  /* gap: 30px; */
+  /* flex-wrap: wrap; */
+}
+
+.card {
+  color: rgb(24, 234, 42);
+  padding: 16px;
+  margin: 20px;
+  border: 2px solid rgb(24, 234, 42);
+  border-radius: 10px;
+  max-width: 200px;
+}
+.card h1,
+.card h2 {
+  color: rgb(24, 234, 42);
+}
+
+/* .counter {
+
+} */
+
+
+.status {
+  font-weight: bold;
+  color: rebeccapurple;
+}
+
+
+.button {
+  border: 2px solid rgb(24, 234, 42);
+  background-color: rebeccapurple;
+  border-radius: 10px;
+  min-width: 40px;
+  min-height: 40px;
+  margin: 10px;
 }
